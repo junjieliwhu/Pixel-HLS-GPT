@@ -23,13 +23,13 @@ Generate:
 
 There are two ways:
 
-### (1) Download from NASA AppEEARS
+### - Download from NASA AppEEARS
 
 https://appeears.earthdatacloud.nasa.gov/
 
 ---
 ### or
-### (2) Sample from local HLS data
+### - Sample from local HLS data
 
 Run:
 
