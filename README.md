@@ -36,4 +36,8 @@ shape:(N, 365, 12), 12 bands are: coastal, blue, green, red, nirA, swir1, swir2,
 shape:(N,), saved the corresponding point names for reconstructed HLS.
 In file 1 and 2, good-quality observations are not reconstructed. Only missing observations are filled using model outputs. The last band (tag) equals 1 if is reconstructed else 0.
 
-
+some examples
+![fig1](/img/T10TDM_2023_row3312_col553_NIR_model3.png)
+![fig1](/img/T18TWN_2023_row3100_col1300_NIR_model3.png)
+![fig1](/img/T18TWN_2023_row3100_col1300_RED_model3.png)
+![fig1](/img/T18TWN_2023_row3100_col1300_NDVI_model3.png)
