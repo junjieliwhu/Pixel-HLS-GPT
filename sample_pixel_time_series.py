@@ -87,8 +87,8 @@ if __name__ == '__main__':
     pixel_points_csv = 'temp.csv'
     CONUS_tiles_shp_path = 'CONUS_hls_tiles/CONUS_hls_tiles.shp'
     output_dir = '/home/junjie.li/Pixel_HLS_GPT'
-    startdoy = 2015001
-    enddoy = 2026001
+    startdoy = 2023001
+    enddoy = 2024001
 
     hls_download_dir = '/home/junjie.li/prepare_data/hls_download_txt'
     hls_txt_list = os.listdir(hls_download_dir)
