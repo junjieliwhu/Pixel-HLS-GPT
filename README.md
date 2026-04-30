@@ -28,7 +28,7 @@ There are two ways:
 https://appeears.earthdatacloud.nasa.gov/
 
 ---
-
+### or
 ### (2) Sample from local HLS data
 
 Run:
