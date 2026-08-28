@@ -93,7 +93,7 @@ Three `.npy` files will be generated:
 
 - Shape: `(N, 365, 8)`  
 - Bands:  
-  `coastal, blue, green, red, nir, swir1, swir2, tag`
+  `coastal, blue, green, red, nir, swir1, swir2, flag`
 
 ---
 
@@ -101,7 +101,7 @@ Three `.npy` files will be generated:
 
 - Shape: `(N, 365, 12)`  
 - Bands:  
-  `coastal, blue, green, red, nirA, swir1, swir2, edge1, edge2, edge3, nir8, tag`
+  `coastal, blue, green, red, nirA, swir1, swir2, edge1, edge2, edge3, nir8, flag`
 
 ---
 
@@ -116,7 +116,7 @@ Three `.npy` files will be generated:
 
 - Only **missing observations** are reconstructed  
 - Original good-quality observations are preserved  
-- The last band (`tag`) indicates:  
+- The last band (`flag`) indicates:  
   - `1` → reconstructed  
   - `0` → original observation  
 
@@ -124,11 +124,16 @@ Three `.npy` files will be generated:
 
 ## Citation
 
-If you use this code, please cite:
-
-Li, J., Zhang, H. K., & Roy, D. P. (2026).  
-*HLS-GPT: A Generative Pretrained Transformer (GPT) Model for Accurate Harmonized Landsat and Sentinel-2 (HLS) Reflectance Time Series Reconstruction.*  
-(In review)
+```
+Junjie Li, Hankui K. Zhang, David P. Roy,
+HLS-GPT: A generative pretrained transformer (GPT) for continental-scale NASA harmonized Landsat and Sentinel-2 (HLS) reflectance reconstruction across all bands on arbitrary dates,
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 240,
+2026,
+Pages 623-647,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2026.08.006.
+```
 
 ---
 
